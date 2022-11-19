@@ -46,3 +46,4 @@ category_id int NOT NULL,
   FOREIGN KEY (project_id) REFERENCES project (project_id) ON DELETE CASCADE,
 UNIQUE KEY (project_id, category_id)
 );
+
